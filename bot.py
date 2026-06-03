@@ -64,6 +64,6 @@ class Handler(BaseHTTPRequestHandler):
     def log_message(self, format, *args):
         pass
 
-if name == "main":
+if __name__ == "__main__":
     threading.Thread(target=bot_loop, daemon=True).start()
     HTTPServer(("0.0.0.0", 8080), Handler).serve_forever()
