@@ -3,9 +3,9 @@ import time
 import threading
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
-TWELVE_API_KEY = "твой_ключ"
-TG_TOKEN = "твой_токен"
-TG_CHAT_ID = "твой_chat_id"
+TWELVE_API_KEY = "3b3d5c079bc84be7b619678949b6a9e1"
+TG_TOKEN = "8860899573:AAH5H-0_yfEZ2aWvMjLESIqVXATOSG7jTuA"
+TG_CHAT_ID = "1638163747"
 SYMBOL = "GBP/USD"
 INTERVAL = "1h"
 CHECK_EVERY_SECONDS = 300
