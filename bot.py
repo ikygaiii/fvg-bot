@@ -74,5 +74,5 @@ def main():
 
         time.sleep(CHECK_EVERY_SECONDS)
 
-if name == "main":
+if __name__ == "__main__":
     main()
